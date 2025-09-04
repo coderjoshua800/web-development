@@ -1,0 +1,17 @@
+ul {
+    background-color: aquamarine;
+    height: 200px;
+    width: 300px;
+}
+
+#black {
+    background-color: blueviolet;
+}
+
+.blue {
+    background-color: burlywood;
+}
+
+*{
+    background-color: coral;
+}

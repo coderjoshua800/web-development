@@ -1,0 +1,34 @@
+/*attribute selected*/
+input[type="text"]{
+    border: 2px solid greenyellow;
+}
+input[type="password"]{
+    border: 2px solid blueviolet (47,47,255);
+}
+/*Child selector*/
+ul > li {
+    color: aqua (181, 34, 34);
+}
+/*
+h1 + p[
+    
+]
+/*hover*/
+a:hover{
+    color: azure;
+}
+/*nth child*/
+li:nth-child(2){
+    background-color: aqua;
+}
+
+#heading1::before{
+    content: "😀";
+}
+
+#paragraph::first-letter{
+    color: brown;
+    font-weight:bold;
+    font-size: 50px;
+
+}

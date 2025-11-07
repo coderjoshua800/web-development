@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>javascript class</h2>
+        <p>how to use javascript class</p>
+        <p id="student1"></p>
+        <p id="student2"></p>
+        <script>
+            // creating a class
+            class student {
+                constructor(name,year){
+                    this.name = name;
+                    this.year = year;
+                }
+                // creating age method for class student 
+                age(){
+                    let date = new Date();
+                    return date.getFullYear() - this.year
+                }
+            }
+            // use student class with two objects
+            student1 = new("chalton,2012");
+            document.getElementById("student1").innerHTML =
+            "my name is " + student1.name + ". i am born in "stundent1.year ". and my age is " + student1.age();
+        </script>
+    </body>
+</html>

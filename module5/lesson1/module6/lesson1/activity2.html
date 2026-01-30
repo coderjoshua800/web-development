@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        
+
+        
+    </head>
     <body>
-        <p>enter a number and click ok:</p>
+        <p id="p1" style="color: aqua; text-align: center;">enter a number and click ok:</p><br>
         <input type="number" id="id1"  min="100" max="300" required>
-        <button onclick="myfunction()">ok</button>
+        <button onclick="myfunction()">ok</button><br>
         <p>if the number is less than 100 or greater than 300, an error message will be displayed.</p>
-        <p id="result"></p>
+        <p id="result" ></p>
         <script>
             function myfunction() {
                 var inpObj = document.getElementById("id1");

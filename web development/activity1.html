@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!--slide show-->
+        <section>
+            <img  class="myslides" src="images.jpg" style="height: 500px;" >
+            <img class="myslides" src="images (1).jpg" style="height: 500px;" >
+        </section>
+        <script>
+            // automatic slideshow - change image every 3 seconds
+            var myindex = 0;
+            carousel();
+
+            function carousel(); {
+                var i;
+                var x = document.getElementsByClassName("myslides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myindex++;
+                if (myindex < x.length) {myindex = 1}
+                x[myindex-1].style.display = "block";
+                setTimeout(carousel, 3000);
+            }
+        </script>
+    </body>
+</html>

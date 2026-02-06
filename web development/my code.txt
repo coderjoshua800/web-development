@@ -1,0 +1,6 @@
+<!doctype>
+<html>
+<head>
+<tittle>good game</tittle>
+</head>
+<body>

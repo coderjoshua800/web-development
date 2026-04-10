@@ -1,15 +1,19 @@
-# take marks as input from user
-print("Enter Marks obtained in 4 Subjects: ")
-math = int(input("maths : "))
-english = int(input("english : "))
-science = int(input("science : "))
-hindi = int(input("hindi : "))
+height = float(input("enter your height in cm:"))
+weight = float(input("enter your weight in kg:"))
 
-# Let's calculate the percentage of marks
-sum = math + english + science + hindi
-print("sum of math,english,science and hindi = ", sum)
+BMI = weight / (height/100)**2
 
-perc = (sum / 400) * 100
+print("your BMI is", BMI)
 
-print(end="Percentage Mark = ")
-print(perc)
+if BMI <- 18.4:
+    print("you are underweight")
+elif BMI <= 24.9:
+    print("you are healthy.")
+elif BMI <= 29.9:
+    print("you are over weight.")
+elif BMI <= 34.9:
+    print("you are severly over weight.")
+elif BMI <= 39.9:
+    print("you are obase.")
+else:
+    print("your are severly obase.")

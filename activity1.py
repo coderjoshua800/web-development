@@ -1,12 +1,23 @@
-# taking total amount as input from the user
-amount = int(input("pls enter amount for withdraw:"))
+a = 10
+b = 12
+c = 12
+print(a != b)
+print(b != c)
 
-# calculating the amount of note of different dominations
-note_1 = amount//100
-note_2 = (amount%100)//50
-note_3 = ((amount%100)%50)//10
+a = "python"
+b = "coding"
+if a != b :
+    print(a, 'and', b, 'are different.')
+
+a = 4
+b = 5
+
+if (a == 1) != (b == 5):
+    print('hello')
 
 
-print("notes of 100 rupee", note_1)
-print("print note of 50 rupee", note_2)
-print("print note of 10 rupee", note_3)
+
+a = int(input("enter a number"))
+
+if a%2 !=0 :
+    print(a, "is not even number.")
